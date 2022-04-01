@@ -137,7 +137,7 @@ def cat_scale(x, y, i, screen, color):  # рисует кота с параме�
     arc(screen, (0, 0, 0), [-345 * i + x1, 460 * i + y1, 700 * i, 200 * i], 1.3, 1.75)
 
 
-def ball_scale(x, y, i, screen):
+def ball_scale(x, y, i, screen):  # рисует клубок с параметрами
     i = i / 10
     x0 = 400
     y0 = 560
